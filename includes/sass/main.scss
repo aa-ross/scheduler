@@ -1,0 +1,137 @@
+$darkest: #17252A;
+$dark: #2B7A78;
+$color: #3AAFA9;
+$light: #DEF2F1;
+$lightest: #FEFFFF;
+$body: 'Cormorant', sans-serif;
+$a: 'Work Sans';
+$h1: 'Roboto', sans-serif;
+
+body {
+	text-align: center;
+	background-color:$lightest;
+}
+
+h1 {
+	color:$color;
+}
+
+.hide{
+	display:none;
+}
+
+.navbar {
+	background-color:$lightest;
+	border-color: $dark;
+
+	a:hover {
+		color: $color;
+		background-color: $light;
+	}
+}
+
+.sep {
+	padding-top:1rem;
+	padding-bottom:1rem;
+}
+
+.button {
+ 	padding: 15px 32px;
+	color: $color;
+ 	text-align: center;
+ 	border-style: solid;
+ 	border-color: $color;
+	border-radius: 8px;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    }
+
+    .button:hover {
+    	color: $lightest;
+    	background-color: $color;
+    }
+
+ul {list-style-type: none; }
+li {list-style-type: none; }
+
+.month {
+    padding: 70px 25px;   
+    color: $color;
+    text-align: center;
+    margin-bottom: 5px;
+    width:80%;
+
+}
+
+.name {
+	font-size:18px;
+	
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color:$color;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    width:10px;
+    
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    width:10px;
+
+    
+}
+
+.dw {
+    margin: 0;
+    padding: 5px 0;
+    background-color:$color;
+}
+
+
+.dw li {
+    display: inline-block;
+    width: 13.6%;
+    color: $light;
+    text-align: center;
+}
+
+.day {
+    padding: 10px 0;
+    background: $light;
+    margin: 0;
+}
+
+.day li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: $dark;
+}
+
+
+.day li .active {
+    padding: 5px;
+    background: $light;
+    color: white !important
+}
+
+footer {
+	.footer{
+		background-color: $color;
+	}
+}
